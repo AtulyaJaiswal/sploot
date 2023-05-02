@@ -1,7 +1,7 @@
 # sploot
 Sploot Backend Assignment
 
-Clone the repo and then cd cloned_project_repo_name
-run npm i to install all dependencies
-use npm run dev to run on local server
+1. Clone the repo and then cd cloned_project_repo_name
+2. run npm i to install all dependencies
+3. use npm run dev to run on local server
 
