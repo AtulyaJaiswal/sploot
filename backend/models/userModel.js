@@ -15,7 +15,6 @@ const userSchema = new mongoose.Schema({
         required:[true, "Please enter your email"],
         unique:true,
         validate:[validator.isEmail, "Please enter a valid email"],
-
     },
     password:{
         type:String,
@@ -26,7 +25,7 @@ const userSchema = new mongoose.Schema({
     age:{
         type:Number,
         required:[true, "Please enter your age"],
-        min: [0, "Not a valid age under 0"],
+        min: [5, "Not a valid age under 0"],
         max:[100, "Not a valid age above 100"],
     }
 });
